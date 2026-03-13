@@ -1,0 +1,16 @@
+D:/STM32 IoT Thinkspeak/CMSIS/Core/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Src/Esp_01.c:34:6:LED_Init	4	static
+../Src/Esp_01.c:47:6:UART1_Init	8	static
+../Src/Esp_01.c:74:5:Uart1_ReadChar	16	static
+../Src/Esp_01.c:85:6:Uart1_Write	16	static
+../Src/Esp_01.c:91:6:Uart1_SendString	16	static
+../Src/Esp_01.c:100:6:USART1_IRQHandler	16	static
+../Src/Esp_01.c:116:6:UART2_Init	4	static
+../Src/Esp_01.c:129:6:UART2_WriteChar	16	static
+../Src/Esp_01.c:135:6:UART2_SendString	16	static
+../Src/Esp_01.c:141:6:ESP_Check_OK	32	static
+../Src/Esp_01.c:175:6:ESP_GetIP	40	static
+../Src/Esp_01.c:242:6:ESP_SendCommand	32	static
+../Src/Esp_01.c:256:6:ESP_Init	168	static
+../Src/Esp_01.c:312:6:ESP_Connect	8	static
+../Src/Esp_01.c:352:6:Server_Start	2192	static

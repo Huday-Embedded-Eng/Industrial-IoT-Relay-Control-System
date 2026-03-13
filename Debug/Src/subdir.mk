@@ -5,6 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Src/Esp_01.c \
 ../Src/I2C_Lcd.c \
 ../Src/delay.c \
 ../Src/main.c \
@@ -12,6 +13,7 @@ C_SRCS += \
 ../Src/sysmem.c 
 
 OBJS += \
+./Src/Esp_01.o \
 ./Src/I2C_Lcd.o \
 ./Src/delay.o \
 ./Src/main.o \
@@ -19,6 +21,7 @@ OBJS += \
 ./Src/sysmem.o 
 
 C_DEPS += \
+./Src/Esp_01.d \
 ./Src/I2C_Lcd.d \
 ./Src/delay.d \
 ./Src/main.d \
@@ -33,7 +36,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/I2C_Lcd.cyclo ./Src/I2C_Lcd.d ./Src/I2C_Lcd.o ./Src/I2C_Lcd.su ./Src/delay.cyclo ./Src/delay.d ./Src/delay.o ./Src/delay.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+	-$(RM) ./Src/Esp_01.cyclo ./Src/Esp_01.d ./Src/Esp_01.o ./Src/Esp_01.su ./Src/I2C_Lcd.cyclo ./Src/I2C_Lcd.d ./Src/I2C_Lcd.o ./Src/I2C_Lcd.su ./Src/delay.cyclo ./Src/delay.d ./Src/delay.o ./Src/delay.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
 
 .PHONY: clean-Src
 

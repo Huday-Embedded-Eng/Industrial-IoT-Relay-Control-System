@@ -1,3 +1,4 @@
+"./Src/Esp_01.o"
 "./Src/I2C_Lcd.o"
 "./Src/delay.o"
 "./Src/main.o"
